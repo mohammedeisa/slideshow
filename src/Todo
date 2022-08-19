@@ -1,0 +1,11 @@
+Done - Add height and width settings to the slider and 
+Done- Add post date , and any other meta-data 
+Done- Clicking on the title/image should open the original post link.
+Done- rendering manual controls, etc.
+Done - Toggling various visual elements or metadata of the posts, 
+Done- it will display a slideshow for the latest WPTavern’s post, but it must be possible to change it to any websit
+Done- controlling the behavior of the slider, auto-scroll,
+Done- keyboard  navigation
+Done- Further, on mobile devices, a viewer should be able to swipe with a thumb to move between the next and previous slides.
+- The slideshow must be responsive.
+- improve the styling accordingly

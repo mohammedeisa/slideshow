@@ -1,0 +1,107 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/slideshow",
+	"version": "0.1.0",
+	"title": "Meisa slideshow",
+	"category": "text",
+	"icon": "smiley",
+	"description": "Create a slideshow",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "slideshow",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"attributes": {
+		"component_updated": {
+			"type": "boolean",
+			"default": false
+		},
+		"apiurl": {
+			"type": "string",
+			"default": "https://wptavern.com/wp-json/wp/v2/posts"
+		},
+		"posts": {
+			"type": "array",
+			"default": []
+		},
+		"styles": {
+			"type": "string",
+			"default": ""
+		},
+		"desktopWidth": {
+			"type": "string",
+			"default": "80%"
+		},
+		"desktopHeight": {
+			"type": "string",
+			"default": "600px"
+		},
+		"mobileWidth": {
+			"type": "string",
+			"default": "100%"
+		},
+		"mobileHeight": {
+			"type": "string",
+			"default": "300px"
+		},
+		"hidetitle": {
+			"type": "boolean",
+			"default": false
+		},
+		"hidedate": {
+			"type": "boolean",
+			"default": false
+		},
+		"hideid": {
+			"type": "boolean",
+			"default": false
+		},
+		"marginleft": {
+			"type": "integer",
+			"selector": ".eisa-slider-viewport",
+			"attribute": "style",
+			"source": "attribute",
+			"default": 0
+		},
+		"isloading": {
+			"type": "boolean"
+		},
+		"message": {
+			"type": "string",
+			"source": "text",
+			"selector": "div",
+			"default": ""
+		},
+		"show_nav": {
+			"type": "boolean",
+			"default": true
+		},
+		"show_pagination": {
+			"type": "boolean",
+			"default": true
+		},
+		"reload_posts": {
+			"type": "boolean",
+			"default": true
+		},
+		"autoscroll": {
+			"type": "boolean",
+			"default": false
+		},
+		"autoscrolltimeout": {
+			"type": "integer",
+			"default": 2000
+		},
+		"animationtime": {
+			"type": "integer",
+			"default": 2000
+		},
+		"loop": {
+			"type": "boolean",
+			"default": true
+		}
+	}
+}

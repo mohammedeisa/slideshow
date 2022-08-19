@@ -1,0 +1,148 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.eisa-slider-posts-container {
+  display: flex;
+  align-items: center;
+}
+
+.eisa-slider-posts img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.eisa-slider-posts {
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.eisa-slider-viewport {
+  max-height: 100%;
+}
+
+.eisa-slider-post .slide {
+  width: inherit;
+}
+
+.slide {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  max-height: 100%;
+}
+
+.slide.active {
+  display: block;
+}
+
+.animation {
+  opacity: 1;
+}
+
+.slide.fadeout {
+  -webkit-animation-name: show;
+          animation-name: show;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+          animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.slide.fadein {
+  opacity: 1;
+  -webkit-animation-name: show;
+          animation-name: show;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+          animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@-webkit-keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes hide {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes hide {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.eisa-slider-nav-prev,
+.eisa-slider-nav-next {
+  flex-basis: 5%;
+}
+
+.eisa-slider-posts {
+  flex-basis: 90%;
+}
+
+.eisa-slider-nav-prev img,
+.eisa-slider-nav-next img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.eisa-slider-navigation {
+  text-align: center;
+  margin: 10px 0px;
+  word-wrap: break-word;
+}
+
+.eisa-slider-navigation a {
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: #cecece;
+  border-radius: 3px;
+  text-align: center;
+  padding: 5px 7px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.eisa-slider-navigation a.active {
+  background-color: #222;
+  color: white;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
